@@ -43,9 +43,9 @@
                     <h3>{{ propertyName }}</h3>
                     <ol>
                         <li v-for="(value, propName) in item_list"
-                            v-bind:class="[value ? 'notdone' : 'done']"
-                            @click="value = clicked(value)">
-                            {{propName}} , {{value}}
+                            v-bind:class="[item_list.propName ? 'done' : 'notdone']"
+                            @click="item_list.propName = !item_list.propName">
+                            {{propName}}
                         </li>
                     </ol>
                 </div>
