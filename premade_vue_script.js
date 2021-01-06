@@ -18,7 +18,10 @@ const premade_lists = [
         "Food": ['peach-eos', 'energy drinks'],
         "Games": ['uno', 'other stuff']}),
     new PremadeList('ski-day', 'A Day Skiing/ Snowboarding', {
-        'Main Stuff': ['snowboard', 'boots', 'goggles', 'money for food', 'packed lunches', 'gloves']}),
+        'Clothes': ['Thermal Underwear', 'Long Sleeve TShirt', 'Sweatpants', 'Mid-layer Jacket', 'Gloves', 'Beanie', 'Neck Covering'],
+        'Gear': ['Snowboard', 'Skis', 'Poles', 'Boots', 'Helmet', 'Beanie', 'Goggles', 'Neck Covering'],
+        'Food': ['Oranges', 'Banana', 'Sandwich', '~$15 for Chili Cheese Fries ;)'],
+        'Misc': ['Adjust Bindings', 'Wax board/ skis if necessary before the day', 'Mask']}),
     new PremadeList('honeymoon', 'HoneyMoon', {
         'Clothes':['Underwear','shirts', 'shorts', 'swimsuits', 'pants', 'sunglasses', 'watch', 'skirts', 'dresses', 'shoes', 'socks'],
         'Activities': ['lingerie', 'edible body glitter', 'sex cards', 'lube', 'sex toys'],
