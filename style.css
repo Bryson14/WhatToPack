@@ -10,3 +10,5 @@ h1, p, h2, h3 {
 .notdone {
     font-weight: bold;
 }
+
+li { cursor: pointer; }

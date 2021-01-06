@@ -47,9 +47,10 @@ const app = Vue.createApp({
 		};
 	},
     methods: {
-        onChange(value){
-            console.log(value);
+        clicked(active) {
+            console.log(active);
+            return !active;
         }
     }
 });
-vm = app.mount('#app');
+const vm = app.mount('#app');
