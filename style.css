@@ -1,0 +1,12 @@
+h1, p, h2, h3 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.done {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.notdone {
+    font-weight: bold;
+}
