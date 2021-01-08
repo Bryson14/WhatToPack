@@ -49,9 +49,9 @@
                     <option v-for="list in premade_lists" :value="list.data">{{list.label}}</option>
                 </select>
                 <div v-if="selected!=''">
-                    <div v-for="(item_list, propertyName) in selected">
+                    <div v-for="(item_list, propertyName) in selected" class="col-sm">
                         <!-- -->
-                        <h3>{{ propertyName }}</h3>
+                        <h3><b>{{ propertyName }}</b></h3>
                         <ol>
                             <li v-for="(value, propName) in item_list" v-bind:class="[item_list.propName ? 'done' : 'notdone']" @click="item_list.propName = !item_list.propName">
                                 {{propName}}
@@ -61,6 +61,7 @@
                 </div>
             </div>
         </div>
+
 
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->

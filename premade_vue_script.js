@@ -25,7 +25,16 @@ const premade_lists = [
     new PremadeList('honeymoon', 'HoneyMoon', {
         'Clothes':['Underwear','shirts', 'shorts', 'swimsuits', 'pants', 'sunglasses', 'watch', 'skirts', 'dresses', 'shoes', 'socks'],
         'Activities': ['lingerie', 'edible body glitter', 'sex cards', 'lube', 'sex toys'],
-        'Misc':['laptop', 'phone', 'charger', 'medications', 'toothpaste', 'toothbrush']})
+        'Misc':['laptop', 'phone', 'charger', 'medications', 'toothpaste', 'toothbrush']}),
+    new PremadeList('race', 'Race/ Triathlon (multi-day)', {
+        'Clothes':['Trail Running Shoes', 'Shoes Insoles', 'Team Shirts', 'Running Shirt', 'Running Shorts or Compression Shorts x3', 'Running Specific Socks x4', 'Sports Bra/ Underwear x4', 'Post-race Shirt', 'Long Sleeve Technical Layer', 'Sweatpants', 'Costumes/ Accessories', 'Light Jacket', 'Raincoat', 'Warm Hoodie or Jacket', 'CEP Compression Socks or Sleeves', 'Running Hat', 'Flip Flops', 'Running Headband', 'Gloves/ Hat', 'Waterproof Shoes/ Boots', 'Running Belt'],
+        'Other Must Haves': ['Trash and Revycling Liners', 'First Aid Kit', 'Cash', 'ICE Contacts for each runner'],
+        'Night Gear': ['Headlamp', 'Hand Flashlight'],
+        'Accessories': ['Smartphone', 'Portable Charger', 'Camera (If not using phone)', 'Cowbell/ Noise Maker', 'Sunglasses', 'Headphones', 'GPS Running Watch', 'Massage Roller/ Gun', 'Hydration Belt', 'KT Tape'],
+        'Food': ['Water', 'Peanut Butter and Jelly', 'Bread/ Bagels', 'Rice Cakes', 'Fruit', 'Trail Mix', 'Coffee', 'Electrolyte Drink', 'Snack Bars', 'Energy Bars/ Gel', 'Protein Powder'],
+        'Camping Gear': ['Two 4-person tents', 'Rain fly', 'Camping table', 'Sleeping Bag', 'Sleeping Pad', 'Cooler', 'Camping Stove', 'Tent Decorations', 'Reusable Water Bottle', 'Insulated Coffee Bottle', 'Yoga Mat', 'Ice'],
+        'Toiletries': ['Deodorant', 'Sunscreen', 'Bobby Pins/ Hair Ties', 'Comb', 'Anti-Chafe Powder or Cream', 'Toothbrush', 'Ibuprophen', 'Toilet Paper', 'Cramp Prevention'],
+        })
 ]
 
 // adding done or not done information to these bullet points

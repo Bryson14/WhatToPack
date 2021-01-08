@@ -40,13 +40,24 @@
 
         <div id="app">
             <div class="text-center container">
-                <h1>Start adding to your packing list</h1>
+                <h1>Start by answering some questions</h1>
+                    <div class="row">
+                      <div class="col-sm">Pick what most describes your trip.</div>
+                      <div class="col-sm">How many days are you staying?</div>
+                      <div class="col-sm">Lets go!</div>
+                    </div>
+
+                <!-- cool looking text input -->
                 <div class="input-group mb-3">
                     <div class="input-group-prepend">
-                        <span class="input-group-text" id="inputGroup-sizing-default">List Item</span>
+                        <select class="input-group-text" id="inputGroup-sizing-default">
+                            <option>List Item</option>
+                            <option>Category Heading</option>
+                        </select>
                     </div>
                     <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" />
                 </div>
+
             </div>
         </div>
 
