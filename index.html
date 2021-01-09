@@ -51,7 +51,7 @@
                 <hr>
 
                 <div v-if="selected!=''" class="row">
-                    <div v-for="(item_list, propertyName) in selected" class="container col-sm">
+                    <div v-for="(item_list, propertyName) in selected" class="container col-sm-2">
                         <!-- -->
                         <h3><b>{{ propertyName }}</b></h3>
                         <ol>
@@ -60,7 +60,7 @@
                             </li>
                         </ol>
                     </div>
-                    <div class="col-sm-offset"></div>
+                    <div class="col-sm-offset-1"></div>
                 </div>
             </div>
         </div>
