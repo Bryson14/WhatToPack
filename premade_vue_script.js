@@ -22,11 +22,11 @@ const premade_lists = [
         'Gear': ['Snowboard', 'Skis', 'Poles', 'Boots', 'Helmet', 'Beanie', 'Goggles', 'Neck Covering'],
         'Food': ['Oranges', 'Banana', 'Sandwich', '~$15 for Chili Cheese Fries ;)'],
         'Misc': ['Adjust Bindings', 'Wax board/ skis if necessary before the day', 'Mask']}),
-    new PremadeList('honeymoon', 'HoneyMoon', {
-        'Basics':['Underwear', 'Bras', 'Sports Bra', 'Tank Top', 'Bikinies', 'Jacket', 'Dresses', 'Shorts', 'Jeans', 'Sleeveless Tops', 'Swimsuit coverup', 'Heels', 'Cute Sandals', 'Flip-Flops', 'Running Shoes'],
-        'Sexy Stuff': ['Scented Candles', 'Massage Oil', 'Perfume', 'Bubble Bath', 'Lingerie', 'Toys'],
-        'Toiletries': ['Shampoo', 'Hair Products', 'Toothbrush', 'Razor and shaving cream', 'sunscreen', 'Aloe', 'Small First Aid Kit', 'Birth Control/ Condoms', 'Lubricant', 'Lip Balm', 'Facial Cleanser and Moisterizor', 'Makeup', 'Feminime Products'],
-        'Other': ['Passports', 'Visa', 'Credit Cards', 'IDs', 'Vaccinations', 'Travelers Insurance', 'Chargers', 'Books', 'Ziplocks', 'Daypack', 'Sunglasses']}),
+//    new PremadeList('honeymoon', 'HoneyMoon', {
+//        'Basics':['Underwear', 'Bras', 'Sports Bra', 'Tank Top', 'Bikinies', 'Jacket', 'Dresses', 'Shorts', 'Jeans', 'Sleeveless Tops', 'Swimsuit coverup', 'Heels', 'Cute Sandals', 'Flip-Flops', 'Running Shoes'],
+//        'Sexy Stuff': ['Scented Candles', 'Massage Oil', 'Perfume', 'Bubble Bath', 'Lingerie', 'Toys'],
+//        'Toiletries': ['Shampoo', 'Hair Products', 'Toothbrush', 'Razor and shaving cream', 'sunscreen', 'Aloe', 'Small First Aid Kit', 'Birth Control/ Condoms', 'Lubricant', 'Lip Balm', 'Facial Cleanser and Moisterizor', 'Makeup', 'Feminime Products'],
+//        'Other': ['Passports', 'Visa', 'Credit Cards', 'IDs', 'Vaccinations', 'Travelers Insurance', 'Chargers', 'Books', 'Ziplocks', 'Daypack', 'Sunglasses']}),
     new PremadeList('race', 'Race/ Triathlon (multi-day)', {
         'Clothes':['Trail Running Shoes', 'Shoes Insoles', 'Team Shirts', 'Running Shirt', 'Running Shorts or Compression Shorts x3', 'Running Specific Socks x4', 'Sports Bra/ Underwear x4', 'Post-race Shirt', 'Long Sleeve Technical Layer', 'Sweatpants', 'Costumes/ Accessories', 'Light Jacket', 'Raincoat', 'Warm Hoodie or Jacket', 'CEP Compression Socks or Sleeves', 'Running Hat', 'Flip Flops', 'Running Headband', 'Gloves/ Hat', 'Waterproof Shoes/ Boots', 'Running Belt'],
         'Other Must Haves': ['Trash and Revycling Liners', 'First Aid Kit', 'Cash', 'ICE Contacts for each runner'],
